@@ -23,10 +23,10 @@ window = Tk()
  
 window.title("Workhorse Music Player")
 
-btn = Button(window, text="PLAY",bg='#F2C417',fg='#347ED1',bd=8,command = play_)
+btn = Button(window, text="PLAY",bg='#F2C417',fg='#347ED1',bd=8,command = play_, height=2, width=15)
 btn.grid(column=1, row=0)
-Button(window, text="STOP",bg='#F2C417',fg='#347ED1',bd=8,command = stop_).grid(column=2, row=0)
-Button(window, text="OPEN",bg='#F2C417',fg='#347ED1',bd=8,command = open_).grid(column=3, row=0)
+Button(window, text="STOP",bg='#F2C417',fg='#347ED1',bd=8,command = stop_, height=2, width=15).grid(column=2, row=0)
+Button(window, text="OPEN",bg='#F2C417',fg='#347ED1',bd=8,command = open_, height=2, width=15).grid(column=3, row=0)
 
 
 window.mainloop()
