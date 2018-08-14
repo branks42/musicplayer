@@ -19,6 +19,8 @@ def play_():
 def stop_():
     mixer.music.stop()
 
+# Want to add time scrubber and ability tomake playlists    
+    
 window = Tk()
  
 window.title("Workhorse Music Player")
@@ -30,3 +32,5 @@ Button(window, text="OPEN",bg='#F2C417',fg='#347ED1',bd=8,command = open_, heigh
 
 
 window.mainloop()
+
+# END.
