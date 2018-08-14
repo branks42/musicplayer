@@ -19,7 +19,7 @@ def play_():
 def stop_():
     mixer.music.stop()
 
-# Want to add time scrubber and ability tomake playlists    
+# Want to add time scrubber and ability to make playlists    
     
 window = Tk()
  
