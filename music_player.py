@@ -6,7 +6,7 @@ song = ""
 
 def open_():
     global song
-    window.filename = askopenfilename(initialdir = "Any directory you'd like",title = "Select file",filetypes = (("mp3 files","*.mp3"),("all files","*.*")))
+    window.filename = askopenfilename(initialdir = "Place directory here",title = "Select file",filetypes = (("mp3 files","*.mp3"),("all files","*.*")))
     song = str(window.filename)
     print(song)
 
@@ -19,7 +19,7 @@ def play_():
 def stop_():
     mixer.music.stop()
 
-# Want to add time scrubber and ability to make playlists    
+# Want to add time scrubber and ability to make playlists eventually    
     
 window = Tk()
  
