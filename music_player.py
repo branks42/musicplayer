@@ -2,18 +2,18 @@ from tkinter import *
 from pygame import mixer
 from tkinter.filedialog import askopenfilename
 
-song = ""
+song_file = ""
 
 def open_():
     global song
     window.filename = askopenfilename(initialdir = "Place directory here",title = "Select file",filetypes = (("mp3 files","*.mp3"),("all files","*.*")))
-    song = str(window.filename)
+    song_file = str(window.filename)
     print(song)
 
     
 def play_():
    mixer.init()                               
-   mixer.music.load(song) 
+   mixer.music.load(song_file) 
    mixer.music.play()
     
 def stop_():
