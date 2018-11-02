@@ -32,5 +32,3 @@ Button(window, text="OPEN",bg='#F2C417',fg='#347ED1',bd=8,command = open_, heigh
 
 
 window.mainloop()
-
-# END.
